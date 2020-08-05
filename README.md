@@ -11,7 +11,7 @@ Hope you will found it usefull, have fun tho.
 * 3 - Append inputs - Append new inputs to test to old tested inputs according to option (1) to the inputs (json) file
 
 Menu image:  
-![Menu image](/images/menu.png)
+![Menu image](/Images/menu.png)
 
 ## Usage (Windows)
 
