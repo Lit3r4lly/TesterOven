@@ -72,9 +72,7 @@ class CliAppHandler:
         new_tested_inputs = self.get_inputs()
         current_tested_inputs = self.import_inputs(file_path)
 
-        for tested_input in new_tested_inputs:
-            current_tested_inputs.append(tested_input)
-
+        current_tested_inputs.extend(new_tested_inputs)
         self.export_inputs(current_tested_inputs, file_path)
 
         return current_tested_inputs
