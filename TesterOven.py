@@ -34,8 +34,5 @@ def manage_tester_oven() -> None:
     tester_handler.write_output_to_file(output)
     print("Finished.")
 
-def main():
-    manage_tester_oven()
-
 if __name__ == "__main__":
-    main()
+    manage_tester_oven()
