@@ -11,7 +11,7 @@ TESTER_OVEN = """
 class CliAppHandler:
     def __init__(self) -> None:
         print(TESTER_OVEN)
-        print("Hello, welcome to TesterOven. \nSimply testing system for executable files.")
+        print("Hello, welcome to TesterOven. \nSimple testing system for executable files.")
         print("All you need to do is to follow the instructions according to the chosen option in the next menu.")
 
     def get_inputs(self) -> list:

@@ -15,7 +15,7 @@ Menu image:
 
 ## Usage (Windows)
 
-Turning on the server:
+Python must be installed
 ```
 python TesterOven.py
 ....
@@ -23,4 +23,4 @@ python TesterOven.py
 
 ## Etc.
 
-I made this project in 4 hours and it was kinda fun, I made this cause i wanted to develop cool project and I saw need to this tool.
+I made this project in 4 hours and it was kinda fun, I made this cause I wanted to develop a cool project and I saw need to this tool.
