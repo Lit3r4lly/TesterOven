@@ -19,22 +19,19 @@ def manage_tester_oven() -> None:
             file_path = input("\n[#] Enter file path (json) for saving the tested inputs: ")
             cli_handler.export_inputs(inputs_list, file_path)
 
-        tester_handler.write_output_to_file(output)
-
     elif user_choice == 2:
         file_path = input("\n[#] Enter inputs file path (json) for importing old tested inputs: ")
-        inputs_list = cli_handler.import_inputs(file_path)
 
+        inputs_list = cli_handler.import_inputs(file_path)
         output = tester_handler.test_inputs(inputs_list)
-        tester_handler.write_output_to_file(output)
 
     elif user_choice == 3:
         file_path = input("\n[#] Enter file path (json) for appending new inputs to old tested inputs: ")
+        
         inputs_list = cli_handler.append_inputs(file_path)
-
         output = tester_handler.test_inputs(inputs_list)
-        tester_handler.write_output_to_file(output)
 
+    tester_handler.write_output_to_file(output)
     print("Finished.")
 
 def main():
