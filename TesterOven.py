@@ -1,6 +1,6 @@
 # Created by Lit3r4lly
 import CliHandler
-import TesterHandler
+import InputsTester
 
 def manage_tester_oven() -> None:
     """
@@ -29,8 +29,8 @@ Your choice: """))
         file_path = input("\n[#] Enter file path (json) for appending new inputs to old tested inputs: ")
         inputs_list = cli_handler.append_inputs(file_path)
 
-    output = TesterHandler.test_inputs(inputs_list)
-    TesterHandler.write_output_to_file(output)
+    output = InputsTester.test_inputs(inputs_list)
+    InputsTester.write_output_to_file(output)
     print("[!] Finished.")
 
 if __name__ == "__main__":
