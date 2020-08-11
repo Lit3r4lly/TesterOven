@@ -1,7 +1,7 @@
 # TesterOven Project
 
 TesterOven Project is a simple tester that allows you to test your executable files with inputs.
-All you should to do is to enter inputs according to the options in the menu, they will direct you.
+All you need to do is to enter inputs according to the options in the menu, they will direct you.
 Hope you will found it usefull, have fun tho.
 
 ## Menu list
