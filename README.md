@@ -21,6 +21,8 @@ Python must be installed
 python TesterOven.py
 ....
 ```
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Etc.
 
