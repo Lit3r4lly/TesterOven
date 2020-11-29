@@ -25,5 +25,4 @@ python TesterOven.py
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Etc.
-
-I made this project in 4 hours and it was kinda fun, I made this cause I wanted to develop a cool project and I saw need to this tool.
+4fun project which made in 4 hours :)
